@@ -1,0 +1,3 @@
+package: github.com/shinji62/cf-kafka-to-syslog
+import:
+- package: github.com/bsm/sarama-cluster
