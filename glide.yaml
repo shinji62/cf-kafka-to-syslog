@@ -1,3 +1,6 @@
 package: github.com/shinji62/cf-kafka-to-syslog
 import:
 - package: github.com/bsm/sarama-cluster
+- package: github.com/cloudfoundry-community/firehose-to-syslog
+  version: ^3.0.0
+- package: github.com/cloudfoundry-community/go-cfclient
