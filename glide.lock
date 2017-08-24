@@ -1,5 +1,5 @@
 hash: 7004087984bc0e42c48eee0281aad02b506ea4c68ae483abedcfbcd16a929d50
-updated: 2017-04-11T17:10:30.146357115+09:00
+updated: 2017-08-24T15:50:35.345780153+09:00
 imports:
 - name: github.com/alecthomas/template
   version: b867cc6ab45cece8143cfcc6fc9c77cf3f2c23c0
@@ -10,9 +10,9 @@ imports:
 - name: github.com/boltdb/bolt
   version: 4d30731e9122988d2012a9574c43f80f054a0d3b
 - name: github.com/bsm/sarama-cluster
-  version: 2ae74ad075d4f088751b8c074f7e88c1020d7687
+  version: f1ef2fda9bccc377dad24d7f7522d46b6a9a817b
 - name: github.com/cloudfoundry-community/firehose-to-syslog
-  version: aadc5b397a2da2ea2e4a02edd7684421c8200a80
+  version: 53a26f4ed1e32dbebb63e874ca5255f60802439d
   subpackages:
   - caching
   - eventRouting
@@ -27,7 +27,7 @@ imports:
   subpackages:
   - events
 - name: github.com/davecgh/go-spew
-  version: 346938d642f2ec3594ed81d874461961cd0faa76
+  version: 5215b55f46b2b919f50a1df0eaa5886afe4e3b3d
   subpackages:
   - spew
 - name: github.com/eapache/go-resiliency
@@ -37,7 +37,7 @@ imports:
 - name: github.com/eapache/go-xerial-snappy
   version: bb955e01b9346ac19dc29eb16586c90ded99a98c
 - name: github.com/eapache/queue
-  version: 44cc805cf13205b55f69e14bcb69867d1ae92f98
+  version: ded5959c0d4e360646dc9e9908cff48666781367
 - name: github.com/gogo/protobuf
   version: a4cceea7a401a73fefafd1a21fedbd4694124a82
   subpackages:
@@ -49,9 +49,9 @@ imports:
   subpackages:
   - proto
 - name: github.com/golang/snappy
-  version: 553a641470496b2327abcac10b36396bd98e45c9
+  version: 5f1c01d9f64b941dd9582c638279d046eda6ca31
 - name: github.com/klauspost/crc32
-  version: 1bab8b35b6bb565f92cbc97939610af9369f942a
+  version: 19b0b332c9e4516a6370a0456e6182c3b5036720
 - name: github.com/mailru/easyjson
   version: 159cdb893c982e3d1bc6450322fedd514f9c9de3
   subpackages:
@@ -59,9 +59,9 @@ imports:
   - jlexer
   - jwriter
 - name: github.com/pierrec/lz4
-  version: f5b77fd73d83122495309c0f459b810f83cc291f
+  version: 5a3d2245f97fc249850e7802e3c01fad02a1c316
 - name: github.com/pierrec/xxHash
-  version: 5a004441f897722c627870a981d02b29924215fa
+  version: a0006b13c722f7f12368c00a3d3c2ae8a999a0c6
   subpackages:
   - xxHash32
 - name: github.com/pkg/profile
@@ -100,5 +100,5 @@ imports:
   - internal/urlfetch
   - urlfetch
 - name: gopkg.in/alecthomas/kingpin.v2
-  version: 8cccfa8eb2e3183254457fb1749b2667fbc364c7
+  version: 1087e65c9441605df944fb12c33f0fe7072d18ca
 testImports: []
